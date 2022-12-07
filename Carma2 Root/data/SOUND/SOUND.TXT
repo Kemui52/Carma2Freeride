@@ -1,0 +1,3591 @@
+// DAMAGE REPAIR
+
+5200				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+REPAIR2.WAV			// File name
+3000				// Priority
+4					// Repeat rate
+175,175 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// door slam
+
+5250				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+DOORSLAM.WAV		// File name
+8001				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// reattach bit
+
+5251				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ping.wav			// File name
+8002				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// weld car
+
+5252				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+weld.wav			// File name
+8002				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// HORN (BARK!)
+
+5209				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+HONK.WAV			// File name
+4000				// Priority
+0					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Pratcam whirr noise
+
+1000				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PRATWHIR.WAV		// File name
+1000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0.3,0.30001			// MinPitch, MaxPitch
+0.3,0.30001			// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Warning buzzer noise
+1001				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BUZZER.WAV			// File name
+30000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// Interface noises
+
+
+// LEFT
+
+3000				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BUTT.WAV			// File name
+1000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+3004
+
+// RETURN
+
+3004				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+DONE.WAV			// File name
+1000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ESC
+
+3005				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ESC.WAV				// File name
+1000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+3004
+
+// SWINGIN
+
+3006				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SWINGIN.WAV			// File name
+2000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// SWINGOUT
+
+3007				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SWINGOUT.WAV		// File name
+2000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// CAN'T AFFORD A PART
+
+3100				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PARTNO.WAV			// File name
+2000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// BUY A PART
+
+3101				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PARTBUY.WAV			// File name
+2000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// CREDITS EARNED RATTLE UP IN SUMMARY
+
+3200				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+CREDITSU.WAV		// File name
+1000				// Priority
+0					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// CREDITS LOST RATTLE DOWN IN SUMMARY
+
+3201				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+CREDITSD.WAV		// File name
+1000				// Priority
+0					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+// CREDITS LOST RATTLE DOWN IN SUMMARY
+
+3203				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+GOSIREN.WAV			// File name
+4000				// Priority
+0					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+// RANK INCREASE RATTLE UP IN SUMMARY
+
+3202				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+RANKUP.WAV			// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+// METAL CRUNCH #1
+
+5000				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SMASH1.WAV		// File name
+9900				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+
+// METAL CRUNCH #2
+
+5001				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SMASH2.WAV		// File name
+9900				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+// METAL CRUNCH #3
+
+5002				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SMASH3.WAV		// File name
+9800				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// METAL CRUNCH #4
+
+5003				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SMASH4.WAV		// File name
+9800				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+
+// METAL CRUNCH #5
+
+5004				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SMCRASH2.WAV		// File name
+9700				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+// hinge snap
+
+5097				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+off_hinge.wav		// File name
+9999				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// bend car
+
+5099				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+bend.wav			// File name
+9999				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+// snap car
+
+5098				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+snap.wav			// File name
+9999				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5002
+
+// METAL SCRAPE #1
+
+5010				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+METAL2.WAV		// File name
+7000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5011
+
+// METAL SCRAPE #2
+
+5011				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+METAL3.WAV		// File name
+7000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// METAL SCRAPE #3
+
+5012				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+METAL4.WAV		// File name
+7200				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5011
+
+// ZAP
+
+5500				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ZAP.WAV				// File name
+4000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// ACID BUBBLE
+
+5100				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ACIDBATH.WAV		// File name
+2500				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+// EXPLOSION
+
+5400				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PUPXPLOD.WAV		// File name
+7000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// POWERUP --kemui changed
+
+5401				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+Null.WAV	//FlaskGone.WAV		// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// POWERUP RESPAWN --kemui changed
+
+5402				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+Null.WAV	//PWRUPRESPAWN.WAV		// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// MINE REBOUND
+
+5403				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+METAL5.WAV			// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// mineshit launch
+
+5404				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+MINE.WAV			// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// mortar launch
+
+5405				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SONICB.WAV			// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ENGINE NOISE
+
+5310				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE1.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE
+
+5311				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE2.WAV			// File name
+
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE
+
+5312				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE4.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE
+
+5313				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE5.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE
+
+5314				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+DIESEL.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE
+
+5300				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE3.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0
+
+// ENGINE NOISE (TUNNELS)
+
+5301				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE3E.WAV		// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE (UNDERWATER)
+
+5302				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE3W.WAV		// File name
+6000				// Priority
+0					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// COP'S SIREN
+
+5350				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+GOSIREN.WAV			// File name
+10000				// Priority
+0					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// ONE!
+
+8001				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ONE.WAV				// File name
+6000				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+// TWO!
+
+8002				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+TWO.WAV				// File name
+6000				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+// THREE!
+
+8003				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+THREE.WAV			// File name
+6000				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+// FOUR!
+
+8004				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+FOUR.WAV			// File name
+6000				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+// FIVE!
+
+8005				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+FIVE.WAV			// File name
+9990				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+
+// GO!
+
+8000				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+GO!.WAV				// File name
+6000				// Priority
+
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+1001
+
+// OUT OF TIME!
+
+8010				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+OUTOTIM2.WAV				// File name
+8000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// RACE OVER!
+
+8011				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+RACECPLT.WAV		// File name
+9000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// CHECK POINT!
+
+8012				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+CHKPOINT.WAV		// File name
+9000				// Priority
+1					// Repeat rate
+160,160 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// WRONG CHECKPOINT!
+
+8013				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+WRONGCP.WAV			// File name
+9990				// Priority
+1					// Repeat rate
+170,170 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// FINAL LAP!
+
+8014				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+FINALLAP.WAV		// File name
+9000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// HEY!
+
+8016				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+HEY!.WAV				// File name
+8000				// Priority
+1					// Repeat rate
+180,180 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// CLAP!
+
+8015				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+THECLAP.WAV			// File name
+8000				// Priority
+1					// Repeat rate
+200,200 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// 1st flic (pre smacker) sound effects!
+
+8500				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SKID1.WAV			// File name
+8000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// 2nd flic (post smacker) sound effects!
+
+8501				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIGHIT3.WAV			// File name
+8000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// 3rd flic (not avail. in demo) sound effects!
+
+8502				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SCREAM2.WAV			// File name
+8000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// 4th flic (post-demo slide show) sound effects!
+
+8503				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ZAP.WAV			// File name
+8000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+// tyre screeching
+
+9000				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SKID1.WAV		// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9002
+
+9001				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SKID2.WAV		// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9002
+
+9002				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SKID3.WAV		// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9003				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SCRUB1.WAV		// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9002
+
+9004				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+SCRUB2.WAV		// File name
+1000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9002
+
+9010				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BOING!.WAV			// File name
+2000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+9011				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PINBALL.WAV			// File name
+2000				// Priority
+1					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+9600				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+2	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9601				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+3    	  			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9602				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+4	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9603				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+5	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9604				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+6	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9605				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+7	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9606				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+8	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9607				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+9	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9608				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+10	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9609				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+11	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9610				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+12	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9611				// Sound ID
+0x02,0x01			// Type (01) - CDA,
+13	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9612				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+14	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9613				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+15	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9614				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+16	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9615				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+17	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9616				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+18	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9617				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+19	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+9618				// Sound ID
+0x02,0x01			// Type (01) - CDA, 
+20	      			// File name
+5000				// Priority (0..0x9999)
+1 					// Repeat rate
+255,255
+1,1
+1,1					// MinVol, MaxVol, MinPitch, MaxPitch, MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// Windscreen smash
+
+4500				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+WINDSCRN.WAV		// File name
+8100				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+
+// Big glass smash
+
+4501				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BIGSMASH.WAV		// File name
+8500				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Silly tree noise
+
+4502				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+TREE.WAV			// File name
+8500				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+
+
+// Small glass smash
+
+4510				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+HEADLT.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Plastic smash
+
+4520				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PLASTICS.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Crack (sounds a bit like "bottom")
+
+4530				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+CRACK.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Smash repair
+
+4550				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+REPSMASH.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// Repulse ray
+
+4900				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+REPULSE.WAV			// File name
+13000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// ENGINE NOISE   FOR TOOHORSE
+
+5310				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE1.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+// ENGINE NOISE (BIG ECHOEY SPACE)
+
+5303				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+ENGINE3B.WAV		// File name
+6000				// Priority
+0					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+5300
+
+ // Bird song #1
+
+5601				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIRD1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+ // Bird song #2
+
+5602				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIRD2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+ // Bird song #3
+
+5603				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIRD3.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+ // Bird song #4
+
+5604				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIRD4.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+ // Bird song #5
+
+5605				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BIRD5.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+1					// Number of low memory alternatives
+9999
+
+// PED SOUNDS
+
+4000				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MScream1.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4010				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FScream1.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4011				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FScream2.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4012				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FScream3.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4013				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FScream4.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4014				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FScream5.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4020				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MSmallImpact1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4021				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MSmallImpact2.WAV	//MSmallImpact2.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4030				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FSmallImpact1.WAV	//FSmallImpact1.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4031				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FSmallImpact2.WAV	//FSmallImpact2.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4040				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MSmallImpact1.WAV	//MMediumImpact1.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4041				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MBigImpact1.WAV		//MMediumImpact2.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4050				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FMediumImpact1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4051				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FMediumImpact2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4060				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MBigImpact1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4070				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FBigImpact1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4080				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BigImpact1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4081				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BigImpact2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4082				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+BigImpact3.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4090				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MFall1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4091				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MFall2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4100				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FFall1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4101				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FFall2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4110				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MLivePunt1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4111				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MLivePunt2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4120				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FLivePunt1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4121				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FLivePunt2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4130				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DeadPunt1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4131				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DeadPunt1.WAV	//DeadPunt2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4140				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+KeelOver1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4141				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+KeelOver2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4150				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FOutOfBreath1.WAV	//MOutOfBreath1.WAV			// File name --kemui changed
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4160				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FOutOfBreath1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4170				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MGetUp1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4180				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FGetUp1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4181				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FGetUp2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4190				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+noplease_01.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4200				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+FPlead1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+4201				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MScream2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// WOOD SCRAPE #1
+
+4202				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+WOODCRASH.WAV		// File name
+7000				// Priority
+1					// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG BARK #1
+
+4300				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+WOOF1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG BARK #2
+
+4301				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+WOOF2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG SCARED #1
+
+4302				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DOGSCARED.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG SCARED #2
+
+4303				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DOGSCARED2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG PUNT
+
+4304				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DOGPUNT.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG HIT
+
+4305				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DBIGIMPACT1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG PANTS
+
+4306				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+DOGPANT.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG GROWL
+
+4307				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+GRRR1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DOG GROWL #2
+
+4308				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+WOLFY1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// GOT BEER
+
+3601				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+GOTBEER.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DRUNKEN NOISE #1
+
+3602				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BURP1.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// DRUNKEN NOISE #2
+
+3603				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+BURP2.WAV			// File name
+2000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// FIRE NAPALM
+
+3701				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+NAPLAUNCH.WAV		// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// NAPALM HIT
+
+3702				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+NAPCRACKLE.WAV		// File name
+3000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// PED VALIUM
+
+3801				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PEDVALIUM.WAV		// File name
+6000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// POWERUP CANCEL
+
+3802				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+PWRUPCANCEL.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// GROW TAIL
+
+3901				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+TAILGROW.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// CUT OFF TAIL
+
+3902				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+TAILCUTOFF.WAV		// File name
+8000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ELEPHANT TRUMPET #1
+
+4350				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ELSCARE1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ELEPHANT TRUMPET #2
+
+4351				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ELSCARE2.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ELEPHANT PUNT #1
+
+4352				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ELPUSH.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// ELEPHANT DEATH #1
+
+4353				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ELIMPACT.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// METALLIC CLANK!
+
+4354				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+CLANK!.WAV			// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+//_________________________________________________________________________
+
+
+
+
+
+// SHEEP BAA #1
+
+4700				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEP1.WAV			// File name
+4000				// Priority
+1 					// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// SHEEP BAA #2
+
+4702				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEP2.WAV			// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// SHEEP BAA #3
+
+4703				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEP3.WAV			// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// SHEEP HIT
+
+4704				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEPDIEA2.WAV		// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// LONG SHEEP HIT
+
+4705				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEPDIE2.WAV		// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// SHORT SHEEP HIT
+
+4706				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+SHEEPDIEA1.WAV		// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// DEAR DEER
+
+4710				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+RAINDERA1.WAV		// File name (I know, I know.  Ash can't spell for shit.)
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// DEAREST DEAD DEER.  DEAR O DEAR. --kemui changed
+
+4711				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+RAINHIT1_NEW.WAV	//RAINHIT1.WAV		// File name (I know, I know.  Ash can't spell for shit.)
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// MOO COW, MOOING.  NATURALLY
+
+4720				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COW1.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// MOO COW, MOOING IN A DIFFERENT WAY. (SWEARING IN COW TALK)
+
+4721				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COW2.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// MOO COW, A LIGHT PROD MISS?
+
+4722				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COWHIT2.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// MOO COW, MAY I INTRODUCE SHARP STEEL...
+
+4723				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COWHITA1.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// P P P P P PREDICTABLE PENGUIN GAG. ERR, SHORT MEOW.
+
+4730				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+PENGUIN.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// SLIGHTLY LONGER MEOW
+4731				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+PENGUIN1.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// PENHIT (SOFT)
+4732				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+PENHIT.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// PENHIT (HARD)
+4733				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+PENGDIE01.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// PENHIT (HARD2)
+4734				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+PENGDIE03.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// THE PEOPLE SICKER THAN US (OUTBRAKE!)
+
+
+// IVE GOT VERTIGO (JUST LIKE TREV)
+4800				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+VERTIGO.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// COUGH2
+4801				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COUGH2.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// COUGH3
+4802				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+COUGH3.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// ERR, I'M SO ILL
+4803				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ERIAMSOILL.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// I'M SICK.....ERUGH
+4804				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+IAMSICK.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// ILLSOUND_02 (SMALL COUGH)
+4805				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ILLSOUND_02.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// SQUIDGYHIT ....ARRRGGHHH!
+4806				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MALEGETHIT_02.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+
+
+
+
+
+
+
+// ADDITIONAL MALE PED SOUNDS ______________________________________________________
+
+
+
+
+
+
+
+
+// AHH_03 
+
+7200				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+AHH_03.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+
+// AHH_04
+7201				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+AHH_04.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// AHH_02
+7202				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+AHH_02.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// AHH'PLEASE
+7203				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+AHHPLEASE_02.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// HELP_01
+7204				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+HELP_01.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// HELP_02
+7205				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+HELP_02.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// HELP_03
+7206				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+HELP_03.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// LEAVEMEALONE  (OOOWWW!)
+7207				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+LEAVMEALONE_01.WAV	// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// MERCIE
+7208				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MERCIE.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// MERCIE_02
+7209				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+MERCIE_02.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// NO!
+7210				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+NO_01.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// NO PLEASE
+7211				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+NOPLEASE_01.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// OSHITFALL
+7212				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+OSHITFALL.WAV		// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// WAAAAAAAAAaaaaaaaa
+7213				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+WAAFALLONG_01.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+// Chuck
+7214				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+CHUCK.WAV			// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// ALIEN GREY SCREAM
+
+7215				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ALIENSCREEM_0216.WAV	// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+// ALIEN GREY DEATH
+
+7215				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+ALIENGETHIT_A3.WAV	// File name 
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
+
+
+
+
+
+
+
+
+///------------------enviro sound ---------------------------------------
+
+
+
+
+
+// cafe1
+
+4358				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+cafe_01.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// cafe2
+
+4359				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+cafe_03.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// cafe3
+
+4360				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+cafe_04.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// cave
+
+4361				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+cave_01.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// citiyambient
+
+4362				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+citiyamb_01a.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// citiyambient2
+
+4363				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+citiyamb_01b.wav		// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// citiypolice
+
+4364				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+citiypolice_0116.wav	// File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// clunk1
+
+4365				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+clunk_01.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// clunk2
+
+4366				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+clunk_02.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// convayerbelt
+
+4367				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+convbelt.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// convayerbelt2
+
+4368				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+convbelt_02.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// crusher
+
+4369				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+crusher.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// deep hull sound
+
+4370				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+deephull8.wav	                  // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// desertanbient
+
+4371				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+desertamb_01.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// desertanbient1
+
+4372				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+desertamb_02.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// desertanbient2
+
+4373				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+desertamb_03.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// desertanbient3
+
+4374				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+desertamb_04.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// distant chatter
+
+4375				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+distantchat_01.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives#
+
+// doordown
+
+4376				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+doordown_01.wav                     // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// doorup
+
+4377				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+doorup_01.wav                           // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// drain
+
+4378				// Sound ID
+0x00,0x01			// Type (0), Flags (0)
+DRAIN_01.WAV			// File name
+3000				// Priority
+1					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// drain2
+
+4379			// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+drain_02.wav                               // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// drilling
+
+4380		// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+drilling.wav                               // File name
+7000				// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//drums
+
+4381	// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+drums.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+//engineroom
+
+4382	           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+enginroom_01.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//funfair crowd
+
+4383	// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+fcrowd_02.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//funfair crowd 2
+
+4384	// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+fcrowd_03.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+//funfair crowd 3
+
+4385	// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+fcrowd_04.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// fire
+
+4386	// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+fire_02.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//firewood
+
+4387	         // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+firewood_01.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//forest ambient
+
+4388	         // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+forestamb_0116.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//forest ambient 2
+
+4389	         // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+forestamb_03.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+//irongrown noise iron bridge
+
+4390         // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+irongrown.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+//irongrown noise iron bridge 2
+
+4391         // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+irongrown_02.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//jet jumbo
+
+4392                                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+jeten.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//jet  fly bye air craft car
+
+4393                                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+jetflyby_01.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//lift down
+
+4394                                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+liftdown_01.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//lift end noise
+
+4395                                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+liftend.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//lift go  loop
+
+4396                                // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+liftr.wav                                   // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//lift up
+
+4397                             // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+liftup_02.wav                                // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+// liftupair
+
+4398                             // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+liftupair_01.wav                              // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// chatter light
+
+4399                             // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+lightchatter_01.wav                              // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// max pad in drain
+
+4400                            // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+maxpad1.wav                              // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+// push stone sound
+
+4401                           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+pushstone.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+// quarry ambient
+
+4402                          // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+quarry_01.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// quarry ambient 2
+
+4403                       // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+quarry_02.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+// rivernear
+
+4404                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+rivernear_01.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//running river fast
+
+4405                 // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+runwatfast_0116.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//running river fast 2
+
+4406            // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+runwatfast_02.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+
+//loud river falls
+
+4407            // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+runwatloud_01.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//saw
+
+4408           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+saw16.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//sawmill ambient
+
+4409           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+sawmillamb_01.wav                             // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//scieren 
+
+4410                       // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+scieren16.wav                            // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+
+//sea splash waves
+
+
+4411           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+seashore_01.wav                         // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//space ship loop
+
+
+4412                                                // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+spaceship_01.wav                         // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+//train
+
+4413                                             // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+train_01.wav                         // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+
+//under deck ambient sound
+
+4414                                           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+underdeckamb_01.wav                        // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+
+//under the sea
+
+4415                                           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+underwat_02.wav                       // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// under water ambient
+
+4416                                           // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+UNDERWAT3.wav                      // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+
+// warp core
+
+4417                                    // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+warpcore_01.wav                      // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// oil well
+
+4418                          // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+welloil.wav                      // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// generator off
+
+4419                          // Sound ID
+0x00,0x00			// Type (0), Flags (0)
+down_01.wav                      // File name
+7000			 	// Priority
+1				// Repeat rate
+150,150 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0					// Number of low memory alternatives
+
+// street machine engine noise
+
+4420                          // Sound ID
+0x00,0x01			// Type (0), Flags (0)
+enginewide.WAV			// File name
+6000				// Priority
+0					// Repeat rate
+250,250 			// MinVol, MaxVol
+0,0					// MinPitch, MaxPitch
+0,0					// MinSpeed, MaxSpeed
+0x0					// Special FX index
+0
+
+
+
+

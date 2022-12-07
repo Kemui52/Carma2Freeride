@@ -1,0 +1,15 @@
+With my EXE edit, cheat mode is activated with:
+WetWet
+
+The powerup keys I rearranged by editing the POWERUP.TXT are:
+2 Solid Granite
+3 Mini Peds
+4 Giant Peds
+5 Explosive Peds
+6 Dismemberfest
+7 Slowmo Peds
+8 Kangaroo
+9 Powerup Canceller
+
+The other powerup keys will only award credits since my free maps disable them by default. You can edit RACES.TXT to allow them again.
+The cheat keys on F6, F8, etc. are unaffected and still functional.

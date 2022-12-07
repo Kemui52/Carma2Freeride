@@ -1,0 +1,1797 @@
+98							// Number of powerups
+
+
+// Powerup 0, you'd better work or I'm going to bloody kill you 
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+0							// Action index
+0							// Number of floating point params
+2							// Number of integer params
+100							// Integer param #1 (minimum credits)
+1000						// Integer param #2 (maximum credits)
+0							// Group inclusion
+37							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 1
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+0							// Action index
+0							// Number of floating point params
+2							// Number of integer params
+2000						// Integer param #1 (minimum credits)
+10000						// Integer param #2 (maximum credits)
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 2
+
+Solid granite car!
+solidgranite					// Icon
+0							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+27							// Action index
+1							// Number of floating point params
+50							// Mass multiplier
+0							// Number of integer params
+4096						// Group inclusion
+38							// Pratcam sequence
+4							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 3
+
+MiniAture Pedestrians!
+minipeds					// Icon
+1							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+2							// Action index
+3							// Number of floating point params
+0.5							// Floating point param #1 (size factor)
+0.5							// Floating point param #1 (size factor)
+0.5							// Floating point param #1 (size factor)
+0							// Number of integer params
+16							// Group inclusion
+40							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 4
+
+Giant pedestrians!
+giantped					// Icon
+1							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+2							// Action index
+3							// Number of floating point params
+2.0							// Floating point param #1 (size factor)
+2.0							// Floating point param #1 (size factor)
+2.0							// Floating point param #1 (size factor)
+0							// Number of integer params
+16							// Group inclusion
+40							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 5
+
+Explosive pedestrians!
+explopeds				// Icon
+0							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+3							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+2048						// Group inclusion
+38							// Pratcam sequence
+67							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 6
+
+Dismemberfest!
+dismember				// Icon
+0							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+39							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+2048						// Group inclusion
+38							// Pratcam sequence
+3							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 7
+
+SLOW-MOTION PEDESTRIANS!
+slowmopeds				// Icon
+2							// Fizzle type
+0	//30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+1							// Action index
+1							// Number of floating point params
+0.1						// Floating point param #1 (speed factor)
+0							// Number of integer params
+32							// Group inclusion
+39							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 8
+
+Kangaroo on command!
+kangeroo					// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-20							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+36							// Action index
+1							// Number of floating point params
+12.0						// Floating point param #1 (strength)
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 9
+
+Powerup cancellificatinizer
+CANCELOUT				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-20							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+51							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 10
+
+Timer frozen!/Timer thaw!/
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+8							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 11
+
+Underwater ability!
+underwater					// Icon
+0							// Fizzle type
+120							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+10							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 12
+
+Time bonus
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+11							// Action index
+0							// Number of floating point params
+2							// Number of integer params
+5							// Integer param #1 (minimum time)
+30							// Integer param #2 (maximum time)
+0							// Group inclusion
+37							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 13
+
+Oh dear, bodywork trashed!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+12							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+43							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 14 (mine)
+
+n/a
+none						// Icon 
+1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+30							// Action index
+4							// Number of floating point params
+8.0							// Floating point param #2 (min y strength)
+15.0						// Floating point param #2 (max y strength)
+4							// Floating point param #1 (max roll rate)
+4							// Floating point param #1 (max pitch rate)
+0							// Number of integer params
+0							// Group inclusion
+21							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 15
+
+Frozen opponents!
+frozenoppos					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+14							// Action index
+1							// Number of floating point params
+0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+64							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 16
+
+Frozen cops!
+frozencops					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+15							// Action index
+1							// Number of floating point params
+0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+128							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 17
+
+Turbo opponents!
+turbooppos				// Icon
+2							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+14							// Action index
+1							// Number of floating point params
+2.0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+64							// Group inclusion
+39							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 18
+
+Turbo cops!
+turbocops				// Icon
+2							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+15							// Action index
+1							// Number of floating point params
+2.0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+128							// Group inclusion
+39							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 19
+
+Lunar Gravity...
+lunargravity					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+16							// Action index
+1							// Number of floating point params
+0.35						// Floating point param #1 (gravity divisor)
+0							// Number of integer params
+512							// Group inclusion
+40							// Pratcam sequence
+1							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 20
+
+Pinball mode!
+pinball					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+17							// Action index
+1							// Number of floating point params
+3.0							// Floating point param #1 (collision energy factor)
+0							// Number of integer params
+0							// Group inclusion
+40							// Pratcam sequence
+1							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 21
+
+Wall climber!
+wallclimber					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+18							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 22
+
+Bouncey bouncey!
+bouncybouncy					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+19							// Action index
+2							// Number of floating point params
+0.5							// Floating point param #1 (rate)
+6.0							// Floating point param #2 (strength)
+0							// Number of integer params
+0							// Group inclusion
+39							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 23
+
+Oh dear, jelly suspension!
+jellysusp					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+20							// Action index
+5							// Number of floating point params
+2.0							// Floating point param #1 (front suspension give multiplier)
+2.0							// Floating point param #2 (rear suspension give multiplier)
+0.25						// Floating point param #3 (front extra ride height)
+0.25						// Floating point param #4 (rear extra ride height)
+0.1							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+4							// Group inclusion
+39							// Pratcam sequence
+4							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 24
+
+Pedestrians shown on map
+pedsonmap					// Icon
+0							// Fizzle type
+0							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+29							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 25
+
+Pedestrian Electro-bastard Ray
+electrobast					// Icon (none!)
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+31							// Action index
+1							// Number of floating point params
+3.5							// Floating point param #1 (distance squared)
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 26
+
+Greased tyres!
+greasedtyres					// Icon
+2							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+21							// Action index
+1							// Number of floating point params
+0.2							// Floating point param #1 (tyre grip multiplier)
+0							// Number of integer params
+2							// Group inclusion
+39							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 27
+
+Acme Damage Magnifier!
+damagemag					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+22							// Action index
+1							// Number of floating point params
+5							// Floating point param #1 (opponent damage multiplier)
+0							// Number of integer params
+8							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 28 - Random selection
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+52							// Number of integer params
+2					// Pedestrians with greased shoes!
+3					// Giant pedestrians!
+4					// Explosive pedestrians!
+5					// Hot rod!
+6					// Turbo pedestrians!
+7					// Invulnerability!
+8					// Free repairs!
+9					// Instant repair!
+15					// Frozen opponents!
+19					// Lunar Gravity...
+22					// Bouncey bouncey!
+23					// Oh dear, jelly suspension!
+24					// Pedestrians shown on map
+25					// Pedestrian Electro-bastard Ray
+26					// Greased tyres!
+27					// Acme Damage Magnifier!
+32					// Instant handbrake!
+33					// Immortal Pedestrians
+34					// Turbo!
+35					// Mega-turbo!
+36					// Stupid pedestrians
+37					// Suicidal pedestrians
+38					// 5 Free recovery vouchers
+39					// Solid granite car!
+43					// Peds with stupid heads!
+44					// Mutant Corpses!
+45					// Gravity from jupiter!
+47					// SLOW_MOTION PEDESTRIANS!
+48					// MiniAture Pedestrians!
+49					// Turbo Nutter Bastard Nitrous!
+51					// Afterburner!
+53					// Oil slicks from your arse!
+54					// Kangaroo on command!
+55					// Pedestrian annihilator!
+56					// Opponent repulsificator!
+57					// Dismemberfest!
+58					// Ethereal pedestrians!
+59					// Groovin' Pedestrians!
+60					// Pedestrian Panic!
+61					// Helium Filled Pedestrians!
+62					// Piss-artist pedestrians!
+63					// Fat Bastards!
+64					// Stick insects!
+65					// Pedestrian repulsificator!
+90					// Drink Driving
+91					// Pedestrian Napalm Launcher!
+92					// Pedestrian Valium
+93					// Powerup cancellificatinizer
+94					// WOW! A MUTANT TAIL THING!
+96					// Slaughter Mortar
+52					// Mine shitting ability!
+97					// Cloaking device
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 29 - Random selection
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+45							// Number of integer params
+2					// Pedestrians with greased shoes!
+3					// Giant pedestrians!
+4					// Explosive pedestrians!
+5					// Hot rod!
+6					// Turbo pedestrians!
+7					// Invulnerability!
+8					// Free repairs!
+9					// Instant repair!
+15					// Frozen opponents!
+24					// Pedestrians shown on map
+25					// Pedestrian Electro-bastard Ray
+27					// Acme Damage Magnifier!
+32					// Instant handbrake!
+33					// Immortal Pedestrians
+34					// Turbo!
+35					// Mega-turbo!
+36					// Stupid pedestrians
+37					// Suicidal pedestrians
+38					// 5 Free recovery vouchers
+39					// Solid granite car!
+43					// Peds with stupid heads!
+44					// Mutant Corpses!
+45					// Gravity from jupiter!
+47					// SLOW_MOTION PEDESTRIANS!
+48					// MiniAture Pedestrians!
+49					// Turbo Nutter Bastard Nitrous!
+51					// Afterburner!
+53					// Oil slicks from your arse!
+54					// Kangaroo on command!
+55					// Pedestrian annihilator!
+56					// Opponent repulsificator!
+57					// Dismemberfest!
+58					// Ethereal pedestrians!
+59					// Groovin' Pedestrians!
+60					// Pedestrian Panic!
+61					// Helium Filled Pedestrians!
+62					// Piss-artist pedestrians!
+63					// Fat Bastards!
+64					// Stick insects!
+65					// Pedestrian repulsificator!
+91					// Pedestrian Napalm Launcher!
+94					// WOW! A MUTANT TAIL THING!
+96					// Slaughter Mortar
+52					// Mine shitting ability!
+97					// Cloaking device
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 30 - Random selection
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+29							// Number of integer params
+1					// Mega bonus!
+2					// Pedestrians with greased shoes!
+7					// Invulnerability!
+8					// Free repairs!
+9					// Instant repair!
+15					// Frozen opponents!
+24					// Pedestrians shown on map
+25					// Pedestrian Electro-bastard Ray
+27					// Acme Damage Magnifier!
+32					// Instant handbrake!
+35					// Mega-turbo!
+36					// Stupid pedestrians
+37					// Suicidal pedestrians
+38					// 5 Free recovery vouchers
+39					// Solid granite car!
+47					// SLOW_MOTION PEDESTRIANS!
+49					// Turbo Nutter Bastard Nitrous!
+51					// Afterburner!
+53					// Oil slicks from your arse!
+54					// Kangaroo on command!
+55					// Pedestrian annihilator!
+56					// Opponent repulsificator!
+57					// Dismemberfest!
+65					// Pedestrian repulsificator!
+91					// Pedestrian Napalm Launcher!
+94					// WOW! A MUTANT TAIL THING!
+96					// Slaughter Mortar
+52					// Mine shitting ability!
+97					// Cloaking device
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 31 - Random selection
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+23							// Number of integer params
+2					// Pedestrians with greased shoes!
+3					// Giant pedestrians!
+4					// Explosive pedestrians!
+6					// Turbo pedestrians!
+22					// Bouncey bouncey!
+23					// Oh dear, jelly suspension!
+25					// Pedestrian Electro-bastard Ray
+33					// Immortal Pedestrians
+36					// Stupid pedestrians
+37					// Suicidal pedestrians
+43					// Peds with stupid heads!
+44					// Mutant Corpses!
+47					// SLOW_MOTION PEDESTRIANS!
+48					// MiniAture Pedestrians!
+57					// Dismemberfest!
+58					// Ethereal pedestrians!
+59					// Groovin' Pedestrians!
+60					// Pedestrian Panic!
+61					// Helium Filled Pedestrians!
+62					// Piss-artist pedestrians!
+63					// Fat Bastards!
+64					// Stick insects!
+91					// Pedestrian Napalm Launcher!
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 32
+
+Instant handbrake!
+insthbrake					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+28							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 33
+
+Immortal Pedestrians
+immortpeds					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+23							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+67							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 34
+
+Turbo!
+turbo					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+9							// Action index
+7							// Number of floating point params
+2							// Floating point param #1 (speed factor)
+1							// Grip multiplier
+1.0							// Floating point param #1 (front suspension give multiplier)
+1.0							// Floating point param #2 (rear suspension give multiplier)
+0.0							// Floating point param #3 (front extra ride height)
+0.0							// Floating point param #4 (rear extra ride height)
+1.0							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+7							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 35
+
+Mega-turbo!
+megaturbo					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+9							// Action index
+7							// Number of floating point params
+4							// Floating point param #1 (speed factor)
+1							// Grip multiplier
+1.0							// Floating point param #1 (front suspension give multiplier)
+1.0							// Floating point param #2 (rear suspension give multiplier)
+0.0							// Floating point param #3 (front extra ride height)
+0.0							// Floating point param #4 (rear extra ride height)
+1.0							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+7							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 36
+
+Stupid pedestrians
+stupidpeds					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+24							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+67							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 37
+
+Suicidal pedestrians
+suicidalpeds					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+25							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+67							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 38
+
+5 Free recovery vouchers
+freerecovery					// Icon
+0							// Fizzle type
+0							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+26							// Action index
+0							// Number of floating point params
+1							// Number of integer params
+5							// Number of vouchers
+256							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+
+// Powerup 39
+
+Hot rod!
+hotrod					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+9							// Action index
+7							// Number of floating point params
+8							// Floating point param #1 (speed factor)
+2.2							// Grip multiplier
+1.0							// Floating point param #1 (front suspension give multiplier)
+1.5							// Floating point param #2 (rear suspension give multiplier)
+0.0							// Floating point param #3 (front extra ride height)
+0.15						// Floating point param #4 (rear extra ride height)
+1.5							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+7							// Group inclusion
+38							// Pratcam sequence
+4							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 40
+
+Rock springs!
+rocksring					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+20							// Action index
+5							// Number of floating point params
+0.5							// Floating point param #1 (front suspension give multiplier)
+0.5							// Floating point param #2 (rear suspension give multiplier)
+-0.01						// Floating point param #3 (front extra ride height)
+-0.01						// Floating point param #4 (rear extra ride height)
+1.0							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+4							// Group inclusion
+40							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 41
+
+Drugs!!!
+drugs					// Icon
+1							// Fizzle type
+5							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+13							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+39							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 42
+
+Grip-o-matic tyres!
+gripomatic					// Icon
+2							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+21							// Action index
+1							// Number of floating point params
+3.5							// Floating point param #1 (tyre grip multiplier)
+0							// Number of integer params
+2							// Group inclusion
+40							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 43
+
+Peds with stupid heads!
+stupidheds					// Icon (none!)
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+32							// Action index
+1							// Number of floating point params
+4.0							// Floating point param #1 (size factor)
+0							// Number of integer params
+16							// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 44
+
+Mutant Corpses!
+mutantcorpse					// Icon (none!)
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+33							// Action index
+1							// Number of floating point params
+4							// Speed of writhing
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 45
+
+Gravity from jupiter!
+gravityjupit					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+16							// Action index
+1							// Number of floating point params
+5							// Floating point param #1 (gravity divisor)
+0							// Number of integer params
+512							// Group inclusion
+40							// Pratcam sequence
+1							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 46 (8-bit mine)
+
+n/a
+none						// Icon 
+1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+30							// Action index
+4							// Number of floating point params
+2.0							// Floating point param #2 (min y strength)
+10.0						// Floating point param #2 (max y strength)
+2							// Floating point param #1 (max roll rate)
+2							// Floating point param #1 (max pitch rate)
+0							// Number of integer params
+0							// Group inclusion
+21							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 47
+
+Turbo pedestrians!
+turboped					// Icon
+2							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+1							// Action index
+1							// Number of floating point params
+4.0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+32							// Group inclusion
+39							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 48
+
+Pedestrians with greased shoes!
+greesedpeds					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+1							// Action index
+1							// Number of floating point params
+0							// Floating point param #1 (speed factor)
+0							// Number of integer params
+32							// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 49
+
+mEGA Turbo Nitrus!
+turbobast					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+9							// Action index
+7							// Number of floating point params
+8							// Floating point param #1 (speed factor)
+1.5							// Grip multiplier
+1.0							// Floating point param #1 (front suspension give multiplier)
+1.0							// Floating point param #2 (rear suspension give multiplier)
+0.0							// Floating point param #3 (front extra ride height)
+0.0					// Floating point param #4 (rear extra ride height)
+1.0							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+7							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 50
+
+Got 'im  in the bollocks!
+bollocks						// Icon
+0							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+0							// Action index
+0							// Number of floating point params
+2							// Number of integer params
+20000						// Integer param #1 (minimum credits)
+20000						// Integer param #2 (maximum credits)
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 51
+
+Afterburner!
+afterburner					// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+10							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+9							// Action index
+7							// Number of floating point params
+9.5							// Floating point param #1 (speed factor)
+2.4							// Grip multiplier
+1.0							// Floating point param #1 (front suspension give multiplier)
+1.5							// Floating point param #2 (rear suspension give multiplier)
+0.0							// Floating point param #3 (front extra ride height)
+0.2							// Floating point param #4 (rear extra ride height)
+1.7							// Floating point param #5 (damping multiplier)
+0							// Number of integer params
+7							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 52
+
+Mine shitting ability!
+mineshiter					// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-10							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+34							// Action index
+8							// Number of floating point params
+5.0							// Explosion delay
+2.0							// Floating point param #2 (min y strength)
+10.0						// Floating point param #2 (max y strength)
+2							// Floating point param #1 (max roll rate)
+2							// Floating point param #1 (max pitch rate)
+0.7							// Force needed to trigger world exlposion
+0.5							// Firing up vector
+0.6							// firing out vector
+1							// Number of integer params
+0							// direction of fire (0 - shit out, 1 - mortar fire)
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 53
+
+Oil slick SHITTING ABILITY!
+oilslick					// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-5							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+35							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 54
+
+Free repairs!
+frerepar					// Icon
+0							// Fizzle type
+60							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+6							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 55
+Pedestrian annihilator!
+pedanihilator				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-3							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+37							// Action index
+1							// Number of floating point params
+36							// Floating point param #1 (distance squared)
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 56
+Opponent repulsificator!
+opprepulse				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-3							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+38							// Action index
+4							// Number of floating point params
+12.0						// Floating point param #1 (power)
+0.2							// Floating point param #2 (up factor)
+3							// Floating point param #3 (spin factor)
+7							// Floating point param #4 (max distance)
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 57
+
+Invulnerability!
+invulner				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+5							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 58
+Ethereal pedestrians!
+etherialpeds				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+40							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 59
+Groovin' Pedestrians!
+groovinpeds				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+41							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+1024						// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 60
+Pedestrian Panic!
+pedpanic				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+42							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+1024						// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 61
+Helium Filled Pedestrians!
+heliumpeds				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+43							// Action index
+1							// Number of floating point params
+0.1							// Floating point param #1 (gravity factor)
+0							// Number of integer params
+512							// Group inclusion
+38							// Pratcam sequence
+67							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 62
+DRUNK pedestrians!
+pissed				// Icon
+0							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+44							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+1024						// Group inclusion
+38							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 63
+
+Fat Bastards!
+fatbast					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+2							// Action index
+3							// Number of floating point params
+0.9							// Floating point param #1 (size factor)
+3.0							// Floating point param #1 (size factor)
+3.0							// Floating point param #1 (size factor)
+0							// Number of integer params
+16							// Group inclusion
+40							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 64
+
+Stick insects!
+stickinsekt					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+2							// Action index
+3							// Number of floating point params
+2.0							// Floating point param #1 (size factor)
+0.3							// Floating point param #1 (size factor)
+0.3							// Floating point param #1 (size factor)
+0							// Number of integer params
+16							// Group inclusion
+40							// Pratcam sequence
+195							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 65
+Pedestrian repulsificator!
+pedrepulse				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-5							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+45							// Action index
+4							// Number of floating point params
+15.0						// Floating point param #1 (power)
+0.25							// Floating point param #2 (up factor)
+5							// Floating point param #3 (spin factor)
+10							// Floating point param #4 (max distance)
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 66
+Extra armour
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+1							// Armour increase
+0							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 67
+Extra power
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+1							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 68
+Extra offensive
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+0							// Power increase
+1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 69
+Extra everything
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+1							// Armour increase
+1							// Power increase
+1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 70
+Double extra armour
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+2							// Armour increase
+0							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 71
+Double extra power
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+2							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 72
+Double extra offensive
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+0							// Power increase
+2							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 73
+Double extra everything
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+2							// Armour increase
+2							// Power increase
+2							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 74
+Max armour!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+-1							// Armour increase
+0							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 75
+Max power!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+-1							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 76
+Max offensive!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+0							// Power increase
+-1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 77
+Max everything!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+46							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+-1							// Armour increase
+-1							// Power increase
+-1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 78
+Extra armour slot
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+1							// Armour increase
+0							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 79
+Extra power slot
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+1							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 80
+Extra offensive slot
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+0							// Power increase
+1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 81
+Extra slots all round
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+1							// Armour increase
+1							// Power increase
+1							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 82
+Bonus armour slots
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+3							// Armour increase
+0							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 83
+Bonus power slots
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+3							// Power increase
+0							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 84
+Bonus offensive slots
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+0							// Armour increase
+0							// Power increase
+3							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 85
+Bonus slots all round
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+47							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+3							// Armour increase
+3							// Power increase
+3							// Offensive increase
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 86 - Random APO
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+66							// Extra armour
+67							// Extra power
+68							// Extra offensive
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 87 - Random APO potential
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+3							// Number of integer params
+78							// Extra armour slot
+79							// Extra power slot
+80							// Extra offensive slot
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 88 - Random good APO
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+28							// Number of integer params
+69							// Extra everything
+69							// Extra everything
+81							// Extra slots all round
+70							// Double extra armour
+70							// Double extra armour
+70							// Double extra armour
+71							// Double extra power
+71							// Double extra power
+71							// Double extra power
+72							// Double extra offensive
+72							// Double extra offensive
+72							// Double extra offensive
+73							// Double extra everything
+73							// Double extra everything
+74							// Max armour!
+74							// Max armour!
+75							// Max power!
+75							// Max power!
+76							// Max offensive!
+76							// Max offensive!
+77							// Max everything!
+82							// Bonus armour slots
+82							// Bonus armour slots
+83							// Bonus power slots
+83							// Bonus power slots
+84							// Bonus offensive slots
+84							// Bonus offensive slots
+85							// Bonus slots all round
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 89 - Time substitution powerup
+
+n/a
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+4							// Action index
+0							// Number of floating point params
+37							// Number of integer params
+
+66							// Extra armour
+66							// Extra armour
+66							// Extra armour
+66							// Extra armour
+67							// Extra power
+67							// Extra power
+67							// Extra power
+67							// Extra power
+68							// Extra offensive
+68							// Extra offensive
+68							// Extra offensive
+68							// Extra offensive
+
+70							// Double extra armour
+70							// Double extra armour
+70							// Double extra armour
+71							// Double extra power
+71							// Double extra power
+71							// Double extra power
+72							// Double extra offensive
+72							// Double extra offensive
+72							// Double extra offensive
+
+78							// Extra armour slot
+78							// Extra armour slot
+79							// Extra power slot
+79							// Extra power slot
+80							// Extra offensive slot
+80							// Extra offensive slot
+
+69							// Extra everything
+81							// Extra slots all round
+74							// Max armour!
+75							// Max power!
+76							// Max offensive!
+77							// Max everything!
+82							// Bonus armour slots
+83							// Bonus power slots
+84							// Bonus offensive slots
+85							// Bonus slots all round
+
+0							// Group inclusion
+-1							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 90
+
+DrUnk Driving
+DRUNK				// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+48							// Action index
+4							// Number of floating point params
+0.075							// Floating point param #1 (amplitude)
+1500						// Floating point param #2 (min period)
+2500						// Floating point param #3 (max period)
+1.0							// Floating point param #4 (impulse)
+1							// Number of integer params
+3							// Points multiplier
+512							// Group inclusion
+40							// Pratcam sequence
+192							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 91
+Pedestrian Flame-thrower!
+NAPALM				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-15							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+49							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 92
+Pedestrian Valium
+VALIUM				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-5							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+50							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+66							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 93
+
+Instant repair!
+none						// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+7							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 94
+WOW! A MUTANT TAIL THING!
+TAIL				// Icon
+1							// Fizzle type
+0							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+52							// Action index
+2							// Number of floating point params
+0.1							// Mass of each segment
+0.3							// Mass of ball at end
+1							// Number of integer params
+4							// Number of segments
+0							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 95
+SEVER TAIL
+TAILCUT				// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-1							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+53							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+0							// Group inclusion
+38							// Pratcam sequence
+2							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+
+// Powerup 96
+
+Slaughter Mortar
+minemortar					// Icon
+-1							// Fizzle type
+-1							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+-3							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+34							// Action index
+8							// Number of floating point params
+5.0							// Explosion delay
+2.0							// Floating point param #2 (min y strength)
+10.0						// Floating point param #2 (max y strength)
+2							// Floating point param #1 (max roll rate)
+2							// Floating point param #1 (max pitch rate)
+0.70						// Force needed to trigger world exlposion
+0.5							// Firing up vector
+-3.0						// firing out vector
+1							// Number of integer params
+1							// direction of fire (0 - shit out, 1 - mortar fire)
+0							// Group inclusion
+38							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// Powerup 97
+
+Cloaking Device
+cloak					// Icon
+1							// Fizzle type
+30							// Time limit (-1 instantaneous, 0 whole race, x seconds)
+0							// Initial value for keyboard operable powerups (zero if not key operable, positive if time in seconds, negative if number of uses)
+54							// Action index
+0							// Number of floating point params
+0							// Number of integer params
+4096						// Group inclusion
+40							// Pratcam sequence
+0							// Flags (1 = net_global, 2 = net_inappropriate, 4 = off_before_snapweld)
+
+// RESPAWN SPECS
+
+2							// Number of respawn specs
+
+3							// Number of index groups
+-10
+2
+-53
+13
+-8
+90
+
+1
+-98
+0
+
+
+// NETWORK AUTO-GOODIES
+
+
+
+90,180									// Min,max times between Auto-goodies
+
+13										// Number of goodies to choose from
+96										// Slaughter Mortar
+96										// Slaughter Mortar
+96										// Slaughter Mortar
+96										// Slaughter Mortar
+56										// Opponent repulsificator!
+56										// Opponent repulsificator!
+56										// Opponent repulsificator!
+39										// Solid granite car!
+39										// Solid granite car!
+54										// Kangaroo on command!
+52										// Mine shitting ability!
+27										// Acme Damage Magnifier!
+7										// Invulnerability!
