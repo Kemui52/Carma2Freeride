@@ -1483,7 +1483,7 @@ MSmallImpact2.WAV	//MSmallImpact2.WAV			// File name --kemui changed
 
 4030				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-FSmallImpact1.WAV	//FSmallImpact1.WAV			// File name --kemui changed
+FSmallImpact1.WAV			// File name
 4000				// Priority
 1 					// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -1494,7 +1494,7 @@ FSmallImpact1.WAV	//FSmallImpact1.WAV			// File name --kemui changed
 
 4031				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-FSmallImpact2.WAV	//FSmallImpact2.WAV			// File name --kemui changed
+FSmallImpact2.WAV			// File name
 4000				// Priority
 1 					// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -1703,7 +1703,7 @@ DeadPunt1.WAV			// File name
 
 4131				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-DeadPunt1.WAV	//DeadPunt2.WAV			// File name
+DeadPunt1.WAV	//DeadPunt2.WAV			// File name --kemui changed
 4000				// Priority
 1 					// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -1725,7 +1725,7 @@ KeelOver1.WAV			// File name
 
 4141				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-KeelOver2.WAV			// File name
+KeelOver1.WAV	//KeelOver2.WAV			// File name --kemui changed
 4000				// Priority
 1 					// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -2190,7 +2190,7 @@ SHEEP3.WAV			// File name
 SHEEPDIEA2.WAV		// File name
 4000				// Priority
 1 				// Repeat rate
-255,255 			// MinVol, MaxVol
+200,200	//255,255 			// MinVol, MaxVol --kemui changed
 0,0				// MinPitch, MaxPitch
 0,0				// MinSpeed, MaxSpeed
 0x0				// Special FX index
@@ -2200,7 +2200,7 @@ SHEEPDIEA2.WAV		// File name
 
 4705				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-SHEEPDIE2.WAV		// File name
+SHEEPDIE2_new.WAV	//SHEEPDIE2.WAV		// File name --kemui changed
 4000				// Priority
 1 				// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -2216,7 +2216,7 @@ SHEEPDIE2.WAV		// File name
 SHEEPDIEA1.WAV		// File name
 4000				// Priority
 1 				// Repeat rate
-255,255 			// MinVol, MaxVol
+200,200	//255,255 			// MinVol, MaxVol --kemui changed
 0,0				// MinPitch, MaxPitch
 0,0				// MinSpeed, MaxSpeed
 0x0				// Special FX index
@@ -2279,7 +2279,7 @@ COW2.WAV			// File name
 
 4722				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-COWHIT2.WAV			// File name 
+RAINHIT1_new.WAV	//COWHIT2.WAV			// File name --kemui changed
 4000				// Priority
 1 				// Repeat rate
 255,255 			// MinVol, MaxVol
@@ -3585,6 +3585,20 @@ enginewide.WAV			// File name
 0,0					// MinSpeed, MaxSpeed
 0x0					// Special FX index
 0
+
+
+// SILENCE --kemui changed, but actually added
+
+4701				// Sound ID
+0x00,0x00			// Type (0), Flags (0)
+NULL.WAV			// File name
+4000				// Priority
+1 				// Repeat rate
+255,255 			// MinVol, MaxVol
+0,0				// MinPitch, MaxPitch
+0,0				// MinSpeed, MaxSpeed
+0x0				// Special FX index
+0				// Number of low memory alternatives
 
 
 

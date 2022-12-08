@@ -1,0 +1,63 @@
+// Small (survivable) impact
+
+1				// Number of sounds
+4140	//7215
+
+
+// Medium (but fatal) impact
+
+1				// Number of sounds
+7215
+
+// Large (and thoroughly fatal) impact
+
+1				// Number of sounds
+7215
+
+
+// Thud as ped is tipped over
+
+2				// Number of sounds
+4140
+4141
+
+// Screams from live ped being punted around
+
+2				// Number of sounds
+4130
+4131
+//1				// Number of sounds
+//7215
+
+// Dead ped being punted around
+
+2				// Number of sounds
+4130
+4131
+
+// Scream of ped as clocks onto the fact that its about to die
+
+1				// Number of sounds
+7215
+
+// Panicking whimper as injured ped struggles to its feet
+
+1				// Number of sounds
+7215
+
+// Pleading for mercy
+
+1				// Number of sounds
+7215
+
+// Falling
+
+1				// Number of sounds
+7215
+
+// Ped pausing to get breath back
+
+1				// Number of sounds
+4701	//7215
+
+
