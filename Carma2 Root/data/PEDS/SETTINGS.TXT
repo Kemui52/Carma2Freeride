@@ -1,0 +1,969 @@
+//***************************
+//      GENERAL STUFF
+//***************************
+
+12					// Max distance from camera that peds are processed within
+9					// Min distance from camera that peds can suddenly pop up at
+
+25					// Maximum slope that peds will walk on (in degreesm)
+
+0.5					// Nearest distance to obstacles that ped should ideally reach
+4					// Distance from which turning to avoid obstacles is a possibility
+
+2.0					// Buoyancy factor
+
+300,200,150			// Points score per ped (each level)
+15,10,5				// Time score per ped (each level)
+
+40					// HP damage required per severing
+10					// % chance of severing occurring
+8					// Maximum survivable initial impact force
+250					// HP Damage per unit force
+
+//***************************
+//      GIBLETS
+//***************************
+
+// IMPACT GIBLETS:
+
+0					// Min index usable for scrapes (not impacts)
+
+sphereclumped		// Initial position type
+0.1					// Sphere radius
+impact				// Sphere centre
+
+0,0					// Min,max speed towards car
+1.0					// Impactee velocity factor
+3.0					// Random velocity (max)
+4.0					// Random up velocity (max)
+0					// Random normal velocity (max)
+70.0				// Random spin rate (max)
+
+0.5,1.5				// Min time, Max time
+
+5					// Number of giblet sizes
+
+// Giblet size #0
+
+	0					// flags
+	0.10				// Min force for creation
+	0.10				// Force per instance
+	1					// Max instances
+	1					// Model count
+		1.0					// Scaling factor
+		4					// Indexed colour
+		255,0,0				// rgb colour
+		CHUNK01.DAT			// Model name
+
+// Giblet size #1
+
+	0					// flags
+	0.05				// Min force for creation
+	0.05				// Force per instance
+	2					// Max instances
+	1					// Model count
+		2					// Scaling factor
+		4					// Indexed colour
+		255,0,0				// rgb colour
+		CHUNK02.DAT			// Model name
+
+// Giblet size #2
+
+	0					// flags
+	0.02				// Min force for creation
+	0.020				// Force per instance
+	3					// Max instances
+	1					// Model count
+		2					// Scaling factor
+		4					// Indexed colour
+		255,0,0				// rgb colour
+		CHUNK03.DAT			// Model name
+
+// Giblet size #3
+
+	0					// flags
+	0.003				// Min force for creation
+	0.006				// Force per instance
+	6					// Max instances
+	1					// Model count
+		2					// Scaling factor
+		4					// Indexed colour
+		255,0,0				// rgb colour
+		CHUNK04.DAT			// Model name
+
+// Giblet size #4
+
+	0					// flags
+	0.0002				// Min force for creation
+	0.002				// Force per instance
+	20					// Max instances
+	1					// Model count
+		1.4					// Scaling factor
+		4					// Indexed colour
+		255,0,0				// rgb colour
+		chunk05				// Model name
+
+
+// SMALL BLOOD CLOUD SPEC
+
+1											// Number of groups
+
+	1,3										// min count, max count
+	0,0.15									// min start delay, max start delay
+	0,0,0									// offset
+
+	0,0.6										// min x factor, max x factor
+	0,0.6										// min y factor, max y factor
+	0,0.6										// min z factor, max z factor
+	8,10										// min frame rate, max frame rate
+	2,3									// min scaling factor, max scaling factor
+	randomrotate							// rotate mode
+	5										// number of frames
+		50									// opacity
+		bigbl01								// frame pix name
+		75
+		bigbl02
+		100
+		bigbl03
+		75
+		bigbl04
+		25
+		bigbl05
+
+// MED BLOOD CLOUD SPEC
+
+1											// Number of groups
+
+	3,6										// min count, max count
+	0,0.15									// min start delay, max start delay
+	0,0,0									// offset
+	0,0.6										// min x factor, max x factor
+	0,0.6										// min y factor, max y factor
+	0,0.6										// min z factor, max z factor
+	8,10										// min frame rate, max frame rate
+	2.5,4									// min scaling factor, max scaling factor
+	randomrotate							// rotate mode
+	5										// number of frames
+		50									// opacity
+		bigbl01								// frame pix name
+		75
+		bigbl02
+		100
+		bigbl03
+		75
+		bigbl04
+		25
+		bigbl05
+
+// LARGE BLOOD CLOUD SPEC
+
+1											// Number of groups
+
+	6,10									// min count, max count
+	0,0.15									// min start delay, max start delay
+	0,0,0									// offset
+	0,0.6										// min x factor, max x factor
+	0,0.6										// min y factor, max y factor
+	0,0.6										// min z factor, max z factor
+	8,10										// min frame rate, max frame rate
+	3,5									// min scaling factor, max scaling factor
+	randomrotate							// rotate mode
+	5										// number of frames
+		50									// opacity
+		bigbl01								// frame pix name
+		75
+		bigbl02
+		100
+		bigbl03
+		75
+		bigbl04
+		25
+		bigbl05
+
+
+// GIB SLICK!
+
+GIBSLICK
+300,0.00001,0.00007
+0.001,0.05,0.15
+0.2,1
+1,1
+GIBSMEAR.MAT
+
+// SPURTING STUMP GIBLETS:
+
+5					// Number of spurty lumps at a time
+100					// Spurting period (euurrgghhh!!)
+100					// Total number of parts spurted out by dismembered part
+
+sphereclumped		// Initial position type
+0.015				// Sphere radius
+impact				// Sphere centre
+
+0,0					// Min,max speed towards car
+1.0					// Impactee velocity factor
+1.0					// Random velocity (max)
+0.0					// Random up velocity (max)
+3.0					// Random normal velocity (max)
+70.0				// Random spin rate (max)
+
+0.25,1.0			// Min time, Max time
+
+1.4					// Scaling factor
+4					// Indexed colour
+255,0,0				// rgb colour
+chunk05				// Model name
+
+// NAPALMED PED SPEC
+
+
+
+1											// Number of groups
+
+
+
+	6,8										// min count, max count
+
+	0,0.15									// min start delay, max start delay
+
+	0,0,0									// offset
+
+	0,0.6										// min x factor, max x factor
+
+	0,0.8										// min y factor, max y factor
+
+	0,0.6										// min z factor, max z factor
+
+	11,15									// min frame rate, max frame rate
+
+	2,3										// min scaling factor, max scaling factor
+
+	randomrotate							// rotate mode
+
+	4										// number of frames
+
+		50									// opacity
+
+		ex00001							// frame pix name
+
+		75
+
+		ex00002
+
+		75
+
+		ex00003
+
+		100
+
+		ex00004
+
+
+
+
+
+
+//***************************
+//      MOVEMENT STUFF
+//***************************
+
+1					// Number of movements
+
+// Movement #1
+
+2					// Min time between random turns
+30					// Max time between random turns
+180					// Max angle of random turn
+0.7					// Min walk speed multiplier
+1.7					// Max walk speed multiplier
+
+
+//***************************
+//      PED GROUPS
+//***************************
+
+70					// Number of groups 
+					//(Remember that it starts at 0, so this no. is one more than last group no.)(honest this time ;o)
+
+// OLD SILO PEDS BEGIN
+
+// Group #0
+
+3					// Number of peds types in this group
+	doctor3			// Name of ped
+	doctor4			// Name of ped
+	smart4			// Name of ped
+
+// Group #1
+
+4					// Number of peds types in this group
+	army1				// Name of ped
+	cop2				// Name of ped
+	doctor3			// Name of ped
+	doctor4			// Name of ped
+
+// Group #2
+
+6					// Number of peds types in this group
+	doctor3			// Name of ped
+	doctor4			// Name of ped
+	army1				// Name of ped
+	cop2				// Name of ped
+	clean01			// Name of ped
+	clean02			// Name of ped
+
+// Group #3
+
+2					// Number of peds types in this group
+	clean01			// Name of ped
+	clean02			// Name of ped
+
+// OLD SILO PEDS END
+// JUNKYARD PEDS BEGIN
+
+// Group #4
+
+7					// Number of peds types in this group
+	femplai5			// Name of ped
+	femfat1			// Name of ped
+	fem07				// Name of ped
+	smart6			// Name of ped
+	fatbloke2			// Name of ped
+	tourist1			// Name of ped
+	oscar				// Name of ped
+
+// Group #5
+
+6					// Number of peds types in this group
+	tramp01			// Name of ped
+	femplai5			// Name of ped
+	fem07				// Name of ped
+	fatbloke2			// Name of ped
+	tourist1			// Name of ped
+	oscar				// Name of ped
+
+// Group #6
+
+7	//6					// Number of peds types in this group
+	femplai5	//tramp01			// Name of ped
+	quar8	//tramp02			// Name of ped
+	sheep	//mecanic1			// Name of ped
+	oscar	//mecanic2			// Name of ped
+	deer	//gang03			// Name of ped
+	twolf				// Name of ped
+	cow				// Name of ped
+
+// Group #7
+
+3	//4					// Number of peds types in this group
+	femfat1			// Name of ped
+	fem07				// Name of ped
+	//smart6			// Name of ped
+	quar8	//fem07				// Name of ped
+	
+// Group #8
+
+6					// Number of peds types in this group
+	tramp01			// Name of ped
+	tramp02			// Name of ped
+	mecanic1			// Name of ped
+	mecanic2			// Name of ped
+	gang03			// Name of ped
+	gang03			// Name of ped
+
+// JUNKYARD PEDS END
+// CARRIER PEDS BEGIN
+
+// Group #9
+
+3					// Number of peds types in this group
+	CHEF1				// Name of ped
+	CHEF2				// Name of ped
+	SAILOR4			// Name of ped
+
+// Group #10
+
+4					// Number of peds types in this group
+	DIRECTOR			// Name of ped
+	FLIGHTMEC1			// Name of ped
+	PILOT1			// Name of ped
+	PILOT2			// Name of Ped
+
+// Group #11
+
+
+5					// Number of peds types in this group
+	SAILOR1			// Name of Ped
+	SAILOR3			// Name of ped
+	FLIGHTMEC1			// Name of ped
+	PILOT1			// Name of ped
+	PILOT2			// Name of Ped
+	
+
+// Group #12
+
+
+4					// Number of peds types in this group
+	SAILOR1			// Name of ped
+	SAILOR2			// Name of ped
+	SAILOR3			// Name of ped
+	SAILOR4			// Name of ped
+
+
+// Group #13
+
+
+3					// Number of peds types in this group
+	SAILOR1			// Name of ped
+	SAILOR4			// Name of ped
+	FLIGHTMEC1			// Name of ped
+		
+
+// Group #14
+
+
+4					// Number of peds types in this group
+	SAILOR1			// Name of ped
+	SAILOR2			// Name of ped
+	SAILOR3			// Name of ped
+	SAILOR4			// Name of ped
+			
+
+// Group #15
+
+
+2					// Number of peds types in this group
+	FLIGHTMEC1			// Name of ped
+	PILOT1			// Name of ped
+
+// CARRIER PED GROUPS END 
+// QUARRY PED GROUPS BEGIN
+
+// Group #16
+
+5					// Number of peds types in this group
+	QUAR3				// Name of Ped			
+	FEM07	//QUAR5				// Name of ped
+	QUAR8				// Name of ped
+	QUAR9				// Name of Ped
+	OSCAR				// Name of Ped
+		
+
+// Group #17 
+
+3					// Number of peds types in this group
+	TWOLF	//QUAR7				// Name of ped
+	DEER				// Name of ped
+	SHEEP				// Name of ped
+			
+			
+// Group #18 
+
+
+8					// Number of peds types in this group
+	QUAR1				// Name of ped
+	QUAR2				// Name of ped
+	QUAR4				// Name of ped
+	QUAR8	//QUAR5				// Name of ped
+	OSCAR	//QUAR6				// Name of ped
+	TWOLF	//QUAR9				// Name of ped
+	DEER				// Name of ped
+	SHEEP				// Name of ped
+			
+// Group #19
+
+4	//3					// Number of peds types in this group
+	QUAR4				// Name of ped
+	QUAR5				// Name of ped
+	QUAR9				// Name of ped
+	QUAR8				// Name of ped
+
+// QUARRY PED GROUPS END
+// SKI PED GROUPS BEGIN
+
+// Group #20
+
+8					// Number of peds types in this group
+	SKIER2			// Name of ped
+      SKIER4			// Name of ped
+      SKIER6			// Name of ped
+      FIRSTAID			// Name of ped
+      SKIER7			// Name of ped
+      SHEEP			// Name of ped
+      DEER			// Name of ped
+      PENGUIN			// Name of ped
+
+// Group #21
+
+4					// Number of peds types in this group
+	SKIER11			// Name of ped
+	SKIER12			// Name of ped
+	SKIER13			// Name of ped
+	SKIER14			// Name of ped
+
+// SKI PED GROUPS END
+// AIRPORT PED GROUPS BEGIN
+
+// Group #22
+
+7					// Number of peds types in this group
+	  HOLIDAYHA			// Name of ped
+        JAPHC			// Name of ped
+        HOLIDAYHD			// Name of ped
+        BISMANBM			// Name of ped
+        HOLIDAYHF			// Name of ped
+        HOLIDAYHH			// Name of ped
+        HOLIDAYHI			// Name of ped
+
+
+// Group #23
+
+1					// Number of peds types in this group
+	MAINTAIN			// Name of ped
+	
+// Group #24
+
+2					// Number of peds types in this group
+	STEWARDSE			// Name of ped
+	STEWDSF			// Name of ped
+
+// Group #25
+
+1					// Number of peds types in this group
+	MAINTAIN			// Name of ped
+
+// Group #26
+
+1					// Number of peds types in this group
+	flagfm			// Name of ped
+	
+
+// Group #27
+
+3					// Number of peds types in this group
+        PLANEER			// Name of ped
+        COW			// Name of ped
+	SHEEP			//name of ped
+
+// Group #28
+
+1					// Number of peds types in this group
+	STEWDSF			// Name of ped
+	
+
+// Group #29
+
+1					// Number of peds types in this group
+	PLANEER			// Name of ped
+	
+	
+// Group #30
+
+1					// Number of peds types in this group
+	flitconfc			// Name of ped
+	
+
+// AIRPORT PED GROUPS END
+
+// STUNT PED GROUPS BEGIN
+
+// Group #31
+
+6					// Number of peds types in this group
+			spec1
+			spec3
+                	spec5
+                	spec7
+                	spec8
+                	attend2
+                
+		// Name of ped
+
+// Group #32			   
+
+
+4				// Number of peds types in this group
+                	bandsman
+                	strong
+                	cop1
+                	ring
+			
+                
+
+// Group #33
+
+
+
+2					// Number of peds types in this group
+			cop1
+                	cop3
+
+// Group #34
+
+4					// Number of peds types in this group
+			strong
+                	strong
+                	cop3
+                 	ring
+
+// Group #35
+
+5					// Number of peds types in this group
+			stunt1
+                	stunt2
+                	enger
+                	attend1
+                	attend2
+				
+
+                
+                
+
+	// Name of ped
+
+	
+// STUNT PED GROUPS END
+// TIMBER (TWIN SHRIEKS) PED GROUPS BEGIN
+
+// Group #36
+
+4					// Number of peds types in this group
+			CAN2		// Name of Ped			
+			CLIMBER 	// Name of ped
+			LUMBER1	// Name of ped
+			LUMBER2	// Name of ped
+
+// Group #37
+
+3					// Number of peds types in this group
+			MINER1	// Name of ped
+			MINER2	// Name of Ped			
+			CLIMBER 	// Name of ped
+
+// Group #38
+//change to all animals?
+6					// Number of peds types in this group
+			TRAMP01		//REDNECK1	// Name of ped
+			FEM07	//REDNECK2	// Name of Ped			
+			TWOLF	//MOUNTIE	// Name of ped
+			COW		// Name of ped
+			DEER		// Name of ped
+			SHEEP		// Name of ped
+
+
+// Group #39
+
+1					// Number of peds types in this group
+			SOLDIER	// Name of ped
+
+
+// Group #40
+
+3	//1					// Number of peds types in this group
+			TWOLF	//CLIMBER	// Name of ped
+			COW		// Name of ped
+			DEER		// Name of ped
+
+// Group #41
+
+8					// Number of peds types in this group
+		CAN1			// Name of ped
+		CAN2			// Name of ped
+		CAN3			// Name of ped
+		CAN4			// Name of ped
+		LUMBER1		// Name of ped
+		LUMBER2		// Name of ped
+		MOUNTIE		// Name of ped
+		CLIMBER		// Name of ped
+
+// Group #42
+
+4					// Number of peds types in this group
+		SICK1			// Name of Ped			
+		SICK2 		// Name of ped
+		SICK3			// Name of ped
+		SICK4			// Name of ped
+
+
+// TIMBER (TWIN SHRIEKS) PED GROUPS END
+
+
+// SILO PED GROUPS BEGIN
+
+
+// Group #43
+
+8					// Number of peds types in this group
+	sci1
+                sci2
+                sci3
+                sci4
+                sold1
+                sold2
+                silo1
+                comm
+
+  // Group #44
+
+5					// Number of peds types in this group
+	sci4
+                tech
+                mib1
+                mib2
+                comm
+               
+
+ // Group #45
+
+4					// Number of peds types in this group
+	mop
+                tech
+                silo1
+                silo2
+               
+                
+// Group #46
+
+5					// Number of peds types in this group
+	mib1
+                mib2
+                sold1
+                silo1
+                mop
+
+// Group #47
+
+7					// Number of peds types in this group
+	silo1
+                sold2
+                silo2
+                sci1
+                sci2
+                mop
+                comm
+
+                
+
+	// silopeds finish
+
+// SILO PED GROUPS END
+
+// DESERT PED GROUPS BEGIN
+
+// Group #48
+
+3					// Number of peds types in this group
+			DES1		// Name of Ped / Private Ryan		
+			DES2		// Name of ped / Private Ryan's gay lover.	
+			TWOLF		// Name of ped / Private Ryan's gay lover.	
+
+// Group #49
+
+3					// Number of peds types in this group
+			DES6		// Name of Ped / Tourist			
+			DES8		// Name of ped / Tourist
+			DES9		// Name of ped / Tourist
+
+
+// Group #50
+
+1					// Number of peds types in this group
+			DES7		// Name of Ped / Cara Loft - Notorious artifact thief and fellow animal killer.			
+	
+
+// Group #51
+
+2					// Number of peds types in this group
+			DES5		// Name of Ped / Safari guy		
+			DES10		// Name of ped / The other Safari guy
+	
+
+// Group #52
+
+2					// Number of peds types in this group
+			DES3		// Name of Ped / Workers			
+			DES4		// Name of ped / Workers
+	
+
+// Group #53
+
+2					// Number of peds types in this group
+			ARAB1		// Name of Ped / Tough one eh?			
+			ARAB2		// Name of ped / Tough one eh?
+
+
+// Group #54
+
+2					// Number of peds types in this group
+			GREY		// Name of Ped / Alien Grey						
+			COW		// Name of Ped / Alien Grey						
+
+// Group #55
+
+10					// Number of peds types
+			ARAB1		// Name of Ped / Tough one eh?			
+			ARAB2		// Name of ped / Tough one eh?
+			DES3		// Name of Ped / Workers			
+			DES4		// Name of ped / Workers
+			DES5		// Name of Ped / Safari guy		
+			DES10		// Name of ped / The other Safari guy
+			DES1		// Name of Ped / Private Ryan		
+			DES2		// Name of ped / Private Ryan's gay lover.
+			COW		// Name of ped / Private Ryan's gay lover.
+			TWOLF		// Name of ped / Private Ryan's gay lover.
+
+// DESERT PED GROUPS END
+
+// CARRIER MISSION MAN!
+
+// Group #56
+
+1					// Number of peds types
+			ADMIRAL		// Name of Ped / Tough one eh?			
+
+// FUNFAIR ANIMALS PED GROUPS BEGIN
+
+// Group #57
+
+1					// Number of peds types in this group
+	ELEPHANT				// Name of Ped			
+		
+
+// Group #58 
+
+1					// Number of peds types in this group
+	PENGUIN				// Name of ped
+			
+// Group #59 
+
+
+1					// Number of peds types in this group
+	DEER				// Name of ped
+			
+
+// FUNFAIR ANIMALS PED GROUPS END
+
+// FUNFAIR CLOWN PED GROUPS BEGIN
+
+// Group #60 
+
+2					// Number of peds types in this group
+			clown1
+                	clown2	
+
+// FUNFAIR CLOWN PED GROUPS END
+
+// FUNFAIR EXTRA PED GROUPS BEGIN
+
+
+// Group #61
+
+5					// Number of peds types in this group
+                	spec2
+                	spec4
+                	spec6
+                	attend1
+                	attend2
+
+// FUNFAIR EXTRA PED GROUPS END
+
+// Group #62
+
+8					// Number of peds types in this group
+	SKIER1			// Name of ped
+	SKIER3			// Name of ped
+      SKIER5			// Name of ped
+      FIRSTAID			// Name of ped
+      SKIER9			// Name of ped
+      SHEEP			// Name of ped
+      DEER			// Name of ped
+      PENGUIN			// Name of ped
+
+
+
+// MIX OF EXISTING PEDS FOR NU-CITY BEGIN
+
+// Group #63
+
+6					// Number of peds types in this group
+
+      HOLIDAHE			// Name of ped
+      SPEC8				// Name of ped
+      SPEC4				// Name of ped
+      SPEC3				// Name of ped
+      SPEC1				// Name of ped
+      oscar				// Name of ped
+
+// Group #64
+
+1					// Number of peds types in this group
+	CITYSWAT			// Name of ped
+
+// Group #65
+
+8					// Number of peds types in this group
+
+      HOLIDAHE			// Name of ped
+      TRAMP02	//SPEC8				// Name of ped
+      SPEC4				// Name of ped
+      SPEC3				// Name of ped
+      SPEC1				// Name of ped
+      OSCAR				// Name of ped
+	BISMANBM			// Name of ped
+	FEMFAT1		//CITYSWAT			// Name of ped
+
+// Group #66
+
+7					// Number of peds types in this group
+
+      COP3				// Name of ped
+      CAN3				// Name of ped
+      CAN2				// Name of ped
+//      COP01				// Name of ped
+      GANG03			// Name of ped
+      TRAMP02			// Name of ped
+	TRAMP01			// Name of ped
+	CITYSWAT			// Name of ped
+
+// Group #67
+
+7					// Number of peds types in this group
+
+      SMART6			// Name of ped
+      BLOKEBL			// Name of ped
+	SPEC5				// Name of ped
+   	GANG03			// Name of ped
+      TRAMP02			// Name of ped
+	TRAMP01			// Name of ped
+	TICKET1			// Name of ped
+
+
+// Group #68
+
+2					// Number of peds types in this group
+	CITYSWAT			// Name of ped
+      COP3				// Name of ped
+//    COP01				// Name of ped
+
+// MIX OF EXISTING PEDS FOR NU-CITY END
+
+// RED LODGE BOB, STARRING MANGOHEAD'S BORTHER.
+
+// Group #69 (woof!)
+
+1					// Number of peds types in this group
+	MANGOBRO			// name of ped
+
+
+//***************************
+//      GORE LEVEL
+//***************************
+
+7					// Number of peds to be considered "animals"
+    oscar				// Name of ped
+	ELEPHANT			// Name of Ped			
+	PENGUIN				// Name of ped
+	DEER				// Name of ped
+    SHEEP				// Name of ped
+	TWOLF				// Name of ped / Private Ryan's gay lover.	
+	COW					// Name of ped / Private Ryan's gay lover.
