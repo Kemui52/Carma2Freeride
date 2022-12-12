@@ -282,7 +282,7 @@ chunk05				// Model name
 //      PED GROUPS
 //***************************
 
-70					// Number of groups 
+72	//70					// Number of groups 
 					//(Remember that it starts at 0, so this no. is one more than last group no.)(honest this time ;o)
 
 // OLD SILO PEDS BEGIN
@@ -342,10 +342,10 @@ chunk05				// Model name
 	tourist1			// Name of ped
 	oscar				// Name of ped
 
-// Group #6
+// Group #6 - 
 
 7	//6					// Number of peds types in this group
-	femplai5	//tramp01			// Name of ped
+	spec3	//tramp01			// Name of ped
 	quar8	//tramp02			// Name of ped
 	sheep	//mecanic1			// Name of ped
 	oscar	//mecanic2			// Name of ped
@@ -953,6 +953,27 @@ chunk05				// Model name
 
 1					// Number of peds types in this group
 	MANGOBRO			// name of ped
+
+
+
+
+// CUSTOM PEDS BEGIN
+
+// Group #70 - all animals
+
+7					// Number of peds types in this group
+    OSCAR				// Name of ped
+	TWOLF				// Name of ped
+	DEER				// Name of ped
+    SHEEP				// Name of ped
+	COW					// Name of ped
+	PENGUIN				// Name of ped
+	ELEPHANT			// Name of Ped
+
+// Group #71 - 
+
+1					// Number of peds types in this group
+	spec3			// Name of ped
 
 
 //***************************
