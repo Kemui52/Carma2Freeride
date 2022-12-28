@@ -10,6 +10,8 @@ The files line up with the game directory, but the text files in the data folder
 
 This is set up like a manual installation, so you are encouraged to read the Readme in each directory to get a quick summary on what each file does and what it relies on. For example, my ``RACES.TXT`` is linked with a heavily rearranged ``POWERUP.TXT`` to restrict the available powerups to a select few that I'm interested in. If you want the powerups unchanged, you will need to modify some lines in ``RACES.TXT`` and refrain from installing the ``POWERUP.TXT``.
 
+You can download individual folders from GitHub with [GitZip](https://gitzip.org/).
+
 ## Known Issues
 
 I forgot one of the known issues.

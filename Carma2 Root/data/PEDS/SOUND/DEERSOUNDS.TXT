@@ -29,7 +29,7 @@
 // Dead ped being punted around
 
 1				// Number of sounds
-4131
+4701	//4131
 
 // Scream of ped as clocks onto the fact that its about to die
 
