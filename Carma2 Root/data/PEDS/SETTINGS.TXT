@@ -342,7 +342,7 @@ chunk05				// Model name
 	tourist1			// Name of ped
 	oscar				// Name of ped
 
-// Group #6 - junkyard and urban wilderness
+// Group #6 - junkyard and city wilderness
 
 5	//6					// Number of peds types in this group
 	spec3	//tramp01			// Name of ped
@@ -507,14 +507,16 @@ chunk05				// Model name
 
 // Group #22
 
-7					// Number of peds types in this group
-	  HOLIDAYHA			// Name of ped
+8 //7					// Number of peds types in this group
+		HOLIDAYHA			// Name of ped
         JAPHC			// Name of ped
         HOLIDAYHD			// Name of ped
-        BISMANBM			// Name of ped
+        //BISMANBM			// Name of ped
         HOLIDAYHF			// Name of ped
         HOLIDAYHH			// Name of ped
         HOLIDAYHI			// Name of ped
+	STEWARDSE		// Name of ped
+	STEWDSF			// Name of ped
 
 
 // Group #23
@@ -525,13 +527,15 @@ chunk05				// Model name
 // Group #24
 
 2					// Number of peds types in this group
-	STEWARDSE			// Name of ped
+	STEWARDSE		// Name of ped
 	STEWDSF			// Name of ped
 
 // Group #25
 
-1					// Number of peds types in this group
-	MAINTAIN			// Name of ped
+3 //1					// Number of peds types in this group
+		MAINTAIN			// Name of ped
+	STEWARDSE		// Name of ped
+	STEWDSF			// Name of ped
 
 // Group #26
 
@@ -542,9 +546,9 @@ chunk05				// Model name
 // Group #27
 
 3					// Number of peds types in this group
-        TWOLF	//PLANEER			// Name of ped
-        COW			// Name of ped
-		SHEEP			//name of ped
+	TWOLF	//PLANEER			// Name of ped
+	COW				// Name of ped
+	SHEEP			//name of ped
 
 // Group #28
 
@@ -554,8 +558,9 @@ chunk05				// Model name
 
 // Group #29
 
-1					// Number of peds types in this group
+2 //1					// Number of peds types in this group
 	PLANEER			// Name of ped
+		HOLIDAYHF		// Name of ped
 	
 	
 // Group #30

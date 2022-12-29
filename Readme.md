@@ -14,6 +14,6 @@ You can download individual folders from GitHub with [GitZip](https://gitzip.org
 
 ## Known Issues
 
-I forgot one of the known issues.
-
 Using the solid granite cheat with the dump truck tends to crash the game after a short while. This makes me sad... It's always so hard to find a game with a giant dump truck and no caveats.
+
+The game is confirmed to have a stupid glitch where destroying too many fences makes the rest invulnerable. What?!

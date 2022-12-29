@@ -1,0 +1,37 @@
+101				// version number
+
+78					// non car number
+
+0.001414, 0.781060, -0.000586			// centre of mass position
+0.001414, 0.000, -0.000586			// centre of mass position when attached
+
+2					// number of shapes
+
+polyhedron
+5					// number of points
+0.001414, 1.339310, 0.194210
+0.196209, 1.339310, -0.000586
+-0.193381, 1.339310, -0.000586
+0.001414, 1.339310, -0.195381
+0.000000, 1.562119, -0.002000
+
+polyhedron
+6					// number of points
+-0.090235, 0.000000, 0.061930
+0.093586, 0.000000, 0.061930
+0.000087, 0.000000, -0.124547
+-0.034955, 1.340694, 0.018402
+0.037502, 1.340694, 0.018402
+0.000970, 1.340694, -0.043702
+
+1.5,1.5				// mass unattached, mass attached
+0.389590, 1.562119, 0.389591				// am width height and length
+0 //45						// bend angle before snapping
+0 //0.1						// torque (KN m) needed to move object
+// Materials for shrapnel
+1
+M14.MAT
+
+// start of keyword data
+
+END
