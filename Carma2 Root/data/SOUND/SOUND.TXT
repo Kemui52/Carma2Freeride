@@ -1472,7 +1472,7 @@ MSmallImpact1.WAV			// File name
 
 4021				// Sound ID
 0x00,0x00			// Type (0), Flags (0)
-MSmallImpact2.WAV	//MSmallImpact2.WAV			// File name --kemui changed
+MSmallImpact1.WAV	//MSmallImpact2.WAV			// File name --kemui changed
 4000				// Priority
 1 					// Repeat rate
 255,255 			// MinVol, MaxVol
