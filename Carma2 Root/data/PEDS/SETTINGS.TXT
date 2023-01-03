@@ -344,15 +344,15 @@ chunk05				// Model name
 
 // Group #6 - junkyard and city wilderness
 
-5	//6					// Number of peds types in this group
+4	//6					// Number of peds types in this group
 	spec3	//tramp01			// Name of ped
 	quar8	//tramp02			// Name of ped
 //	sheep	//mecanic1			// Name of ped
 	oscar	//mecanic2			// Name of ped
 //	deer	//gang03			// Name of ped
-	twolf						// Name of ped
+//	twolf						// Name of ped
 //	cow				// Name of ped
-	holidayhf					// Name of ped
+	spec4					// Name of ped
 
 // Group #7
 
@@ -980,43 +980,45 @@ chunk05				// Model name
 
 // Group #71 - all women
 
-30					// Number of peds types in this group
-	ATTEND2			// Name of ped
-	BIK				// Name of ped
-	CAN2			// Name of ped
-	CAN3			// Name of ped
-	DES6			// Name of ped
-	DES7			// Name of ped
-	DOCTOR3			// Name of ped
-	FEM07			// Name of ped
-	FEMFAT1			// Name of ped
-	FEMPLAI5		// Name of ped
-	HOLIDAHE		// Name of ped
-	HOLIDAY10		// Name of ped
-	HOLIDAY7		// Name of ped
-	HOLIDAYHF		// shirtless red
-	MOP				// Name of ped
-	NAKED			// Name of ped
-	QUAR8			// Name of ped
-	SCI3			// Name of ped
-	SCI4			// Name of ped
-	SICK2			// Name of ped
-	SICK3			// Name of ped
-	SPEC3			// dark green shirt
-	SPEC4			// Name of ped
-	SPEC5			// Name of ped
-	SPEC6			// Name of ped
-	SPEC7			// Name of ped
-	STEWARD1		// Name of ped
-	STEWARD2		// Name of ped
-	STEWARDSE		// Name of ped
-	STEWDSF			// Name of ped
+1 //30					// Number of peds types in this group
+	// ATTEND2			// Name of ped
+	 BIK				// Name of ped
+	// CAN2			// Name of ped
+	// CAN3			// Name of ped
+	// DES6			// pink top
+	// DES7			// white bra
+	// DOCTOR3			// Name of ped
+	// FEM07			// Name of ped
+	// FEMFAT1			// Name of ped
+	// FEMPLAI5		// white shirt
+	// HOLIDAHE		// Name of ped
+	// HOLIDAY10		// Name of ped
+	// HOLIDAY7		// Name of ped
+	// HOLIDAYHF		// red top
+	// MOP				// Name of ped
+	// NAKED			// Name of ped
+	// QUAR8			// Name of ped
+	// SCI3			// Name of ped
+	// SCI4			// Name of ped
+	// SICK2			// Name of ped
+	// SICK3			// Name of ped
+	// SPEC3			// dark green shirt
+	// SPEC4			// white top
+	// SPEC5			// Name of ped
+	// SPEC6			// Name of ped
+	// SPEC7			// Name of ped
+	// STEWARD1		// Name of ped
+	// STEWARD2		// Name of ped
+	// STEWARDSE		// Name of ped
+	// STEWDSF			// Name of ped
 
 // Group #72 - shirtless women
 
-2					// Number of peds types in this group
-	SPEC3			// Name of ped
-	HOLIDAYHF		// Name of ped
+4					// Number of peds types in this group
+	DES6			// pink top
+	DES7			// white bra
+	HOLIDAYHF		// red top
+	SPEC4			// white top
 
 
 //***************************
